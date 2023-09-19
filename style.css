@@ -1,0 +1,80 @@
+body{
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,111,1) 57%, rgba(0,212,255,1) 100%);
+display: flex;
+justify-content: center;
+}
+
+.Mainparent {
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  justify-content: center;
+  background: black;
+  border: 3px solid orangered;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 35px;
+  border-radius: 20px;
+
+}
+
+.puzzle{
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.time {
+  background-color: #ff4500;
+  padding: 10px 20px;
+  text-align: center;
+  color: white;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.again {
+  background-color: #ff4500;
+  color: white;
+  width: 200px;
+  margin: 5px auto;
+  padding: 10px 0px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:15px;
+  padding-top: 20px;
+}
+
+.box {
+  width: 65px;
+  height: 70px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  line-height: 70px;
+  cursor: pointer;
+  border: 1px solid red;
+  cursor: move;
+  gap: 20px;
+}
+
+.End{
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .Mainparent{
+    margin-top: 130px;
+  }
+ 
+}

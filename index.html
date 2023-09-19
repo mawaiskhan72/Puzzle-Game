@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puzzle Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="Mainparent">
+    <div>
+      <p class="puzzle">Puzzle Game</p>
+      <p class="time">Time: <span id="timer">00:30</span></p>
+      <p class="again" id="tryAgainButton">Try Again</p>
+    </div>
+
+    <div class="container">
+      <div draggable="true" class="box">1</div>
+      <div draggable="true" class="box">2</div>
+      <div draggable="true" class="box">3</div>
+      <div draggable="true" class="box">4</div>
+      <div draggable="true" class="box">5</div>
+      <div draggable="true" class="box">6</div>
+      <div draggable="true" class="box">7</div>
+      <div draggable="true" class="box">8</div>
+      <div draggable="true" class="box">9</div>
+      <div draggable="true" class="box">10</div>
+      <div draggable="true" class="box">11</div>
+      <div draggable="true" class="box">12</div>
+    </div>
+    <div onchange={showMessage()}>
+
+    </div>
+<!-- 
+    <div class="End">
+      <p>You Win!</p>
+      <p>You loss</p>
+    </div> -->
+  </div>
+    
+  <script src="index.js"></script>
+</body>
+</html>
